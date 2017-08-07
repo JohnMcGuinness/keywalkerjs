@@ -151,8 +151,7 @@ define(function() {
 					idx = next ? 0 : group.length - 1;
 					return {target: group[idx], idx: idx, cycled: true};
 				}
-			}
-			else {
+			} else {
 				idx = currentIndex + (next ? 1 : -1);
 				result.target = group[idx];
 				result.idx = idx;
@@ -232,8 +231,7 @@ define(function() {
 						direction = MOVE_TO.PREVIOUS;
 						break;
 				}
-			}
-			while (target && filter(target) === NodeFilter.FILTER_REJECT);
+			} while (target && filter(target) === NodeFilter.FILTER_REJECT);
 			return target;
 		}
 
