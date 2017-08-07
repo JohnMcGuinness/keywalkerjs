@@ -1,0 +1,26 @@
+{
+  "name": "keywalkerjs",
+  "version": "0.0.1",
+  "description": "An accessible, WAI-ARIA aware keywalker utility in JavaScript.",
+  "directories": {
+    "src": "src/",
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet"
+  },
+  "keywords": [
+    "javascript",
+    "accessibility",
+    "WAI-ARIA"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "intern": "^3.4.4",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
